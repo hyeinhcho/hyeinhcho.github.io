@@ -1,5 +1,3 @@
-## Welcome to GitHub Pages
-
 I am a PhD student at Northwestern University. I am interested in industrial organization of healthcare markets.
 
 Email: hyein dot cho at kellogg dot northwestern dot edu 
@@ -10,13 +8,13 @@ You can use the [editor on GitHub](https://github.com/hyeinhcho/hyeinhcho.github
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Education
+## Education
 - PhD in Managerial Economics and Strategy, Northwestern University (2019 - Present)
 - MSc in Economics, London School of Economics, 2019
 - BBA and BA in Economics, Korea University, 2017
 
 
-### Research
+## Research
 
 
 ### Markdown
