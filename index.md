@@ -12,6 +12,7 @@ Email: hyein dot cho at kellogg dot northwestern dot edu \
 - PhD in Managerial Economics and Strategy, Northwestern University, 2019 - Present
 - MSc in Economics, London School of Economics, 2019
 - BBA and BA in Economics, Korea University, 2017
+- Exchange Student, Peking University, 2016 Spring
 
 
 ## Work in Progress
