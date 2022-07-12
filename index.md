@@ -1,13 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R5D1WL1BY3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R5D1WL1BY3');
-</script>
-
 <img src="asset/profile_circle.png" width="200" height="200"> 
 
 I am a PhD student in the managerial economics and strategy department at Northwestern University (Kellogg). I am interested in industrial organization of healthcare markets.
