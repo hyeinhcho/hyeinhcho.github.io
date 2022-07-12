@@ -16,6 +16,4 @@ Email: hyein dot cho at kellogg dot northwestern dot edu
 
 
 ## Work in Progress
-1. Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)
-2. AAA
-3. BBB
+- Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)
