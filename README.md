@@ -1,12 +1,12 @@
+ <img src="asset/profile_picture.jpg" width="500" height="600"> 
+
 I am a PhD student at Northwestern University. I am interested in industrial organization of healthcare markets.
 
 Email: hyein dot cho at kellogg dot northwestern dot edu 
 
 [Linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) \| [Github](https://github.com/hyeinhcho)
 
-You can use the [editor on GitHub](https://github.com/hyeinhcho/hyeinhcho.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ## Education
 - PhD in Managerial Economics and Strategy, Northwestern University (2019 - Present)
