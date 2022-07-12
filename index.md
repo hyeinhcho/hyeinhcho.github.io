@@ -2,9 +2,9 @@
 
 I am a PhD student at Northwestern University. I am interested in industrial organization of healthcare markets.
 
-How to pronounce my name: _HEIN_ (like Jane with an H) \
-Contact: hyein dot cho at kellogg dot northwestern dot edu \
-[CV](https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC_220321.pdf?dl=0) \| [Github](https://github.com/hyeinhcho) \| [Linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) 
+how to pronounce my name: _HEIN_ (like Jane with an H) \
+contact: hyein dot cho at kellogg dot northwestern dot edu \
+[cv](https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC_220321.pdf?dl=0) \| [github](https://github.com/hyeinhcho) \| [linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) 
 
 
 
