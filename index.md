@@ -1,4 +1,4 @@
- <img src="asset/profile_picture.jpg" width="150" height="150"> 
+ <img src="asset/profile_circle.png" width="150" height="150"> 
 
 I am a PhD student at Northwestern University. I am interested in industrial organization of healthcare markets.
 
