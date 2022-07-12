@@ -3,7 +3,9 @@
 I am a PhD student at Northwestern University. I am interested in industrial organization of healthcare markets.
 
 Email: hyein dot cho at kellogg dot northwestern dot edu 
+
 [Linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) \| [Github](https://github.com/hyeinhcho)
+
 
 
 
