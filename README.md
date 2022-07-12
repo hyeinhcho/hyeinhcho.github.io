@@ -2,7 +2,7 @@ I am a PhD student at Northwestern University. I am interested in industrial org
 
 Email: hyein dot cho at kellogg dot northwestern dot edu 
 
-[Linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) | [Github](https://github.com/hyeinhcho)
+[Linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) || [Github](https://github.com/hyeinhcho)
 
 You can use the [editor on GitHub](https://github.com/hyeinhcho/hyeinhcho.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -14,8 +14,10 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 - BBA and BA in Economics, Korea University, 2017
 
 
-## Research
-
+## Work in Progress
+1. Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)
+2. AAA
+3. BBB
 
 ### Markdown
 
