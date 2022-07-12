@@ -20,62 +20,9 @@ plugins:
 # Custom vars
 version:             1.1.0
 google_analytics_id: UA-234196247-1
-# # settings
-# title: Hyein Cho
 
-# # Author
-# author:
-#   name: Hyein Cho
-#   desc:
-#   email: 
-#   selfie: asset/profile_picture.jpg
-
-# # social
-# social:
-#   email: true
-#   behance:
-#   bitbucket:
-#   dribbble:
-#   facebook: 
-#   flickr:
-#   github: hyeinhcho
-#   google_plus:
-#   instagram:
-#   keybase:
-#   linkedin: https://www.linkedin.com/in/hyein-cho-a90abbb7/
-#   pinterest:
-#   reddit:
-#   soundcloud:
-#   stack_exchange:
-#   steam:
-#   tumblr:
-#   gitlab:
-#   twitter: 
-#   vimeo:
-#   wordpress:
-#   youtube:
-#   default_txt: "Follow On"
 
 # # Assets
 # # sass:
 # #   sass_dir: _sass
 # #   style: compressed
-
-# # # Gems
-# # plugins:
-# #   - jekyll-paginate
-# #   - jekyll-sitemap
-
-# # # Permalinks
-# # permalink: /:year-:month-:day/:title
-# # paginate_path: "/portfolio/page:num/"
-# # paginate: 5
-# # exclude:
-# #   - "Gemfile"
-# #   - "Gemfile.lock"
-# #   - "*.gem"
-# #   - "LICENSE"
-# #   - "READE.md"
-# #   - "screenshot.png"
-
-# theme: jekyll-theme-minimal
