@@ -1,3 +1,8 @@
+---
+layout: about 
+---
+
+
 <img src="asset/profile_circle.png" width="200" height="200"> 
 
 I am a PhD student in the managerial economics and strategy department at Northwestern University (Kellogg). I am interested in the industrial organization of healthcare markets.
