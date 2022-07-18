@@ -1,12 +1,5 @@
 <img src="asset/profile_circle.png" width="200" height="200"> 
 
-<head>
-  <meta name="google-site-verification" content="ARfg_Cyv6uftdBlqsvoIxnHgQ5YOztV_RKE3aPXeR0U" />
-</head>
-
-aa
-
-<body>
 I am a PhD student in the managerial economics and strategy department at Northwestern University (Kellogg). I am interested in the industrial organization of healthcare markets.
 
 how to pronounce my name: _HEIN_ (like Jane with an H) \
@@ -25,5 +18,3 @@ contact: hyein dot cho at kellogg dot northwestern dot edu \
 
 ## Work in Progress
 - Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)
-
-</body>
