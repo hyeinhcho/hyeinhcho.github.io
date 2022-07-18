@@ -7,7 +7,8 @@ author:
   name:              Hyein Cho
   url:               
   email:             
-
+  selfie: assets/profile_circle.png
+  
 # Gems
 plugins:
   - jekyll-paginate
