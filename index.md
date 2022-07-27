@@ -4,7 +4,7 @@
 I am a PhD student in the managerial economics and strategy department at Northwestern University (Kellogg). I am interested in the industrial organization of healthcare markets.
 
 how to pronounce my name: _HEIN_ (like Jane with an H) \
-contact: hyein dot cho at kellogg dot northwestern dot edu \
+contact: firstname dot lastname at kellogg dot northwestern dot edu \
 [cv](https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC_220321.pdf?dl=0) \| [github](https://github.com/hyeinhcho) \| [linkedin](https://www.linkedin.com/in/hyein-cho-a90abbb7/) 
 
 
