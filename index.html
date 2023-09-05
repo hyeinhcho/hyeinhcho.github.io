@@ -1,35 +1,61 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        /* Define the two-column layout */
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* Style the left column (profile section) */
+        .profile {
+            flex: 1;
+            padding: 20px;
+            background-color: transparent; /* Remove the grey background */
+            font-family: Arial, sans-serif; /* Set font to sans-serif */
+        }
+
+        /* Style the right column (research list) */
+        .research {
+            flex: 2;
+            padding: 20px;
+            background-color: transparent; /* Remove the grey background */
+            font-family: Arial, sans-serif; /* Set font to sans-serif */
+        }
+
+        /* Style the profile image for larger screens */
+        @media screen and (min-width: 768px) {
+            .profile img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 50%;
+            }
+        }
+
+        /* Adjust line spacing for the entire document */
+        body {
+            line-height: 1.5; /* Set line spacing to 1.2 times the font size */
+        }
+
+        /* Add additional styles as needed for your content */
+    </style>
     <head>
        <title>Hyein Cho</title>
        <meta name="google-site-verification" content="ARfg_Cyv6uftdBlqsvoIxnHgQ5YOztV_RKE3aPXeR0U" />
-        <link rel ="stylesheet" href="style.css">
+
     </head>
     <body>
-        <h1>Hyein Cho</h1>
-        <img src="/assets/profile.jpg" height="700">
-        <p>I am a PhD student in the managerial economics and strategy department at Northwestern University (Kellogg).
-        I am interested in the industrial organization of healthcare markets.
-        <br>
-        <br>
-        How to pronounce my name: <em> HEIN</em> (like Jane with an H)
-        <br> Contact: firstname dot lastname at kellogg dot northwestern dot edu
-        <br>
-        <a href=https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC_220321.pdf?dl=0">CV</a> | <a href="https://www.linkedin.com/in/hyein-cho-a90abbb7/">Linkedin</a> | <a href="https://github.com/hyeinhcho">Github</a>
-<!--         <hr color = " #e0e0eb" style = "height:1px"> -->
-        </p>
-        
-        <h2> Education</h2>
-        <ul style="list-style-type: disc">
-           <li> PhD in Managerial Economics and Strategy, Northwestern University, 2019-Present</li>
-           <li> MSc in Economics, London School of Economics, 2019</li>
-           <li> BBA and BA in Economics, Korea University, 2017</li>
-           <li> Exchange Student, Peking University, 2016 Spring</li>
-       </ul>
-                                         
-        <h2> Work in Progress</h2>
-        <ul style="list-style-type: disc">
-            <li> Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)</li>
-        </ul>
+        <div class="container">
+            <div class="profile">
+                <h2>Profile</h2>
+                <img src="/assets/profile_new.jpg" alt="Profile Picture" width="150">
+                <p>Short introduction goes here.</p>
+                <a href="https://www.linkedin.com/">LinkedIn Profile</a>
+            </div>
+            <div class="research">
+                <h2>Current Research</h2>
+    			Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)        </div>
+        </div>
     </body>
+
 </html>
