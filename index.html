@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hyein Cho</title>
-  <meta name="google-site-verification" content="ARfg_Cyv6uftdBlqsvoIxnHgQ5YOztV_RKE3aPXeR0U" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyein Cho</title>
+    <meta name="google-site-verification" content="ARfg_Cyv6uftdBlqsvoIxnHgQ5YOztV_RKE3aPXeR0U" />
 
-  
     <style>
         /* Define the two-column layout */
         .container {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column; /* Start with a column layout for smaller screens */
         }
 
         /* Style the left column (profile section) */
         .profile {
-            flex: 1;
             padding: 20px;
             background-color: transparent; /* Remove the grey background */
             font-family: Arial, sans-serif; /* Set font to sans-serif */
+            text-align: center;
+            line-height: 1.2;
         }
 
         /* Style the right column (research list) */
         .research {
-            flex: 2;
             padding: 20px;
             background-color: transparent; /* Remove the grey background */
             font-family: Arial, sans-serif; /* Set font to sans-serif */
+            line-height: 1.2;
         }
 
-        /* Style the profile image for larger screens */
+        /* Style the profile image */
+        .profile img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        /* Media query for screens with a minimum width of 768px (larger screens) */
         @media screen and (min-width: 768px) {
-            .profile img {
-                max-width: 100%;
-                height: auto;
-                border-radius: 50%;
+            .container {
+                flex-direction: row; /* Switch to a row layout for larger screens */
+            }
+
+            .profile {
+                flex: 1; /* Take up 1/3 of the container width */
+            }
+
+            .research {
+                flex: 2; /* Take up 2/3 of the container width */
             }
         }
 
-        /* Adjust line spacing for the entire document */
-        body {
-            line-height: 1.5; /* Set line spacing to 1.2 times the font size */
+        a {
+            color: #0064C8; /* Change the color to your desired color */
         }
 
         /* Add additional styles as needed for your content */
     </style>
-  
-    </head>
-    <body>
-        <div class="container">
-            <div class="profile">
-                <h2>Profile</h2>
-                <img src="/assets/profile_new.jpg" alt="Profile Picture" width="150">
-                <p>Short introduction goes here.</p>
-                <a href="https://www.linkedin.com/">LinkedIn Profile</a>
-            </div>
-            <div class="research">
-                <h2>Current Research</h2>
-    			Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)        </div>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="/assets/profile_new.jpg" width="150">
+            <h2>Hyein Cho</h2>
+            <p><b>PhD Candidate <br>at Northwestern University</b></p>
+            <p>pronounced <em>HEIN</em> (like Jane with an H) <br> hyein.cho@kellogg.northwestern.edu</p>
+            <a href="https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC.pdf?dl=0%22">CV</a> |
+            <a href="https://www.linkedin.com/">LinkedIn</a>
         </div>
-    </body>
-
+        <div class="research">
+            <h3>Work in Progress</h3>
+            Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)
+        </div>
+    </div>
+</body>
 </html>
