@@ -15,22 +15,21 @@
 
         /* Style the left column (profile section) */
         .profile {
-            padding: 20px;
+            padding: 25px;
             background-color: transparent;
             font-family: Arial, sans-serif;
             text-align: center;
             line-height: 1.5;
-         	font-size: 15px;
+            font-size: 15px;
         }
 
         /* Style the right column (research list) */
         .research {
-            padding: 20px;
+            padding: 25px;
             background-color: transparent; 
             font-family: Arial, sans-serif;
             line-height: 1.5;
-         	font-size: 15px;
-
+            font-size: 15px;
         }
 
         /* Style the profile image */
@@ -46,9 +45,8 @@
             }
 
             .profile {
-                border-bottom: 1px solid #ccc; /* Add a border to the right of the profile column */
+                border-bottom: 1px solid #ccc; /* Add a border to the bottom of the profile section */
             }
-
         }
 
         /* Media query for screens with a minimum width of 768px (larger screens) */
@@ -77,7 +75,49 @@
             color: #222;
         }
 
+        .abstract {
+            display: none;
+            margin-top: 5px;
+            padding-left: 20px; /* Indent the abstract */
+        }
+
+        .abstract-link {
+            color: black; /* Set text color to black */
+            text-decoration: none; /* Remove underline */
+            cursor: pointer;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .paper-title {
+            margin-bottom: 0; /* Remove margin at the bottom of the title */
+        }
+
+        .triangle {
+            font-size: 12px;
+            margin-right: 5px;
+            display: inline-block;
+            transition: transform 0.3s ease;
+        }
+
+        .down {
+            transform: rotate(90deg); /* Rotate right-pointing triangle to down-pointing */
+        }
     </style>
+    <script>
+        function toggleAbstract(id, triangleId) {
+            var abstract = document.getElementById(id);
+            var triangle = document.getElementById(triangleId);
+
+            if (abstract.style.display === 'none' || abstract.style.display === '') {
+                abstract.style.display = 'block';
+                triangle.classList.add('down'); // Add class to rotate triangle down
+            } else {
+                abstract.style.display = 'none';
+                triangle.classList.remove('down'); // Remove class to reset triangle to right
+            }
+        }
+    </script>
 </head>
 <body>
     <div class="container">
@@ -89,12 +129,56 @@
             <a href="https://www.dropbox.com/s/ukhnl3af5as6m7c/CV_HC.pdf?dl=0%22">CV</a> |
             <a href="https://www.linkedin.com/in/hyein-cho-a90abbb7/">LinkedIn</a>
         </div>
+
         <div class="research">
-            <p> I am a PhD candidate in managerial economics and strategy at Northwestern (Kellogg). My research focuses on health economics and industrial organization. </p><br>
+            <p>I am a PhD candidate in managerial economics and strategy at Northwestern (Kellogg). My research focuses on health economics and industrial organization. <strong>I am on the 2024-25 job market.</strong></p><br>
+            
             <h3>Working Papers</h3>
-            <p>Provider-Insurer Integration and Healthcare Delivery</p>
-            <p>Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with <a href="https://sites.northwestern.edu/hhz9475/phd-candidate-department-of-economics/" target="_blank">Hans Zhu</a>)</p>
-            <p>Value of Long-Term Care: Facility vs. Home Care</p>
+
+            <div class="paper">
+                <p class="paper-title">Provider-Insurer Integration and Healthcare Delivery</p>
+                <span class="abstract-link" onclick="toggleAbstract('abstract1', 'triangle1')">
+                    <span id="triangle1" class="triangle">&#9656;</span> Abstract
+                </span>
+                <p id="abstract1" class="abstract">I examine how integration between healthcare providers and insurers affects care delivery. Unlike stand-alone providers, integrated providers bear financial responsibility as insurers, which may incentivize them to limit resource-intensive services or better coordinate care. In the Massachusetts Individual Exchange, I find that integration reduces utilization, mainly by reducing patients' visits to specialists. Integration lowers both the likelihood of patients visiting a specialist by 10 percentage points and, for those who do, the likelihood of seeking second opinions by 2.5 percentage points. This shift is driven by integrated insurers reallocating patients to new primary care practitioners (PCPs) who are more likely to be integrated with the insurer. To assess whether the reduction in specialist visits stems from integrated PCPs' stricter gatekeeping or improved PCP-specialist coordination, I develop and estimate a physician referral model. Counterfactual analyses reveal that 86% of the variation is explained by gatekeeping.</p>
+            </div>
+
+            <div class="paper">
+                <p class="paper-title">Limiting For-Profit Providers in the Nursing Home Industry: Quality versus Access (with Hans Zhu)</p>
+                <span class="abstract-link" onclick="toggleAbstract('abstract2', 'triangle2')">
+                    <span id="triangle2" class="triangle">&#9656;</span> Abstract
+                </span>
+                <p id="abstract2" class="abstract">We examine whether policies that affect the extent of for-profit versus not-for-profit provision in regulated markets such as health and education can be effective at addressing quality shortfalls. We study the question in the context of the US nursing home industry, where significant quality shortfalls have been persistent for many decades despite a long history of other policy reforms, and policymakers have recently considered policies limiting the extent of for-profit provision. Our motivating evidence suggests that not-for-profit providers choose higher-quality inputs. However, for-profit providers play an important role in providing access to nursing home services by serving the majority of markets, systematically locating in lower socioeconomic areas, and serving needier residents. To study the welfare effects of limiting for-profit provision, we develop a two-stage static model of oligopoly competition and entry. We find that not-for-profit nursing homes maximize both profit and non-pecuniary objectives but have higher costs.</p>
+            </div>
+
+            <div class="paper">
+                <p class="paper-title">Value of Long-Term Care: Facility vs. Home Care</p>
+                <span class="abstract-link" onclick="toggleAbstract('abstract3', 'triangle3')">
+                    <span id="triangle3" class="triangle">&#9656;</span> Abstract
+                </span>
+                <p id="abstract3" class="abstract">I compare the value of two approaches to long-term care: facility-based care and home-based care. To control for patients' selection into different types of care, I exploit a natural experiment in the South Korean national long-term care insurance scheme and its detailed administrative data. I find that facility-based care increases first-year mortality by 19\% for compliers, compared to home-based care. Death is concentrated among individuals who have had physical impairment and access to informal care at the point of moving into facilities. I suggest two potential mechanisms: (1) poor quality facility care caused by understaffing or negligence, resulting in life-threatening conditions and (2) residents losing a sense of community, taking a toll on the physical health of the old and frail population. On the other hand, home-based care reduces non-acute care utilization while improving chronic care management. These findings suggest policies incentivizing home-based care over facility-based care for an appropriate population would generate greater value.</p>
+            </div>
+
+                       <!-- Commenting out the "Selected Work in Progress" section -->
+            <!--
+            <h3>Selected Work in Progress</h3>
+
+            <div class="paper">
+                <p class="paper-title"><strong>Work in Progress Title 1</strong></p>
+                <span class="abstract-link" onclick="toggleAbstract('abstract4', 'triangle4')">
+                    <span id="triangle4" class="triangle">&#9656;</span> Abstract
+                </span>
+                <p id="abstract4" class="abstract">This is the abstract for Work in Progress 1. It describes ongoing work related to healthcare economics...</p>
+            </div>
+
+            <div class="paper">
+                <p class="paper-title"><strong>Work in Progress Title 2</strong></p>
+                <span class="abstract-link" onclick="toggleAbstract('abstract5', 'triangle5')">
+                    <span id="triangle5" class="triangle">&#9656;</span> Abstract
+                </span>
+                <p id="abstract5" class="abstract">This is the abstract for Work in Progress 2. It focuses on research concerning industrial organization...</p>
+            </div>
+            -->
 
         </div>
     </div>
