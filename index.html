@@ -103,6 +103,21 @@
         .down {
             transform: rotate(90deg); /* Rotate right-pointing triangle to down-pointing */
         }
+        
+         ul {
+        list-style-type: none; /* Remove default bullet points */
+        padding-left: 0;
+    	}
+        
+        .sub-list {
+        padding-left: 20px; /* Indent for the second level */
+        }
+
+        .sub-list li::before {
+             content: "- "; /* Use short dash for the second-level bullet */
+            margin-right: 5px;
+        }
+        
     </style>
     <script>
         function toggleAbstract(id, triangleId) {
@@ -190,6 +205,40 @@
                 <p id="abstract6" class="abstract">I construct a data set of provider-sponsored plans in the United States and summarize enrollment and market outcomes.</p>
                 
             </div>
+            
+             <h3>Teaching</h3>
+             
+           <div class="paper">
+            <p class="paper-title">
+                I worked as a teaching assistant for Kellogg’s various MBA and Executive MBA courses. 
+                [<a href="https://www.dropbox.com/scl/fi/im60kvix62isugejs4ed9/Teaching_Evaluations_HC.pdf?rlkey=4lqnw57ucyt5yn301tfnmmkws&e=1&st=gi7sit7b&dl=0">evaluations</a>]
+            </p>
+
+            <span class="abstract-link" onclick="toggleAbstract('abstract7', 'triangle7')">
+                <span id="triangle7" class="triangle">&#9656;</span> Full-time MBA
+            </span>
+
+            <div id="abstract7" class="abstract">
+                <ul class="sub-list">
+                    <li>Business Analytics I (Summer 2021, 2022)</li>
+                    <li>Business Analytics II (Fall 2022, 2023)</li>
+                    <li>Health Economics (Fall 2021)</li>
+                    <li>People Analytics and Strategy (Spring 2021, 2022, 2023)</li>
+                </ul>
+                
+              
+    		</div>
+            <br>
+            <span class="abstract-link" onclick="toggleAbstract('abstract8', 'triangle8')">
+                <span id="triangle8" class="triangle">&#9656;</span> Executive MBA
+            </span>
+
+            <div id="abstract8" class="abstract">
+                <ul class="sub-list">
+                    <li>Foundations of Strategy (Summer 2024)</li>
+                </ul>
+</div>
+
 
 
         </div>
